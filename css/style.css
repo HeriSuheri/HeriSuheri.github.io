@@ -1,0 +1,80 @@
+body {
+    /* display: auto; */
+    min-height: 100vh;
+    /* flex-direction: row; */
+  }
+
+  /* main {
+    flex: 1 0 auto;
+  } */
+
+
+.slider h3, .slider h5{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    font-size: 80px;
+    color: lightblue;
+}
+
+.p1{
+    text-align: justify;
+}
+
+.parallax-container{
+    height: 450px;
+    margin-top: 50px;  
+}
+
+
+.parallax-container h3{
+    color:red;
+}
+
+.parallax img{
+    filter: grayscale();
+    /* diberi "!important" utk memaksa css jika fungsi  opacity tdk bisa*/ /* opacity: 0.5 !important; */   
+}
+
+.clients img{
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.9));
+}
+
+section{
+    padding: 5px;
+   
+}
+
+.about{
+    height: 900px;
+}
+
+.clients{
+   height: 1200px;
+}
+
+.services{
+    height: 650px;
+}
+
+.portfolio{
+    height: 650px;
+}
+
+.contact{
+    height: 750px;
+}
+
+.page-footer ul li{
+    display: inline-block;
+    /* height: 100px; */
+    /* margin-top: -50px; */
+    /* font-size: 20px;    */
+    /* margin-top: -40px; */
+    /* background-color: lightseagreen; */
+    /* position: absolute; */
+}
+
+/* .twitter{
+    background-image: url(img/7.png);
+} */
+
